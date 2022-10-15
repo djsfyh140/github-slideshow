@@ -2625,6 +2625,20 @@ RBRACE }
 <Stmt>
 <Stmt>
 INTTK int
+IDENFR k
+ASSIGN =
+INTCON 0
+<Number>
+<PrimaryExp>
+<UnaryExp>
+<MulExp>
+<AddExp>
+<Exp>
+<InitVal>
+<VarDef>
+SEMICN ;
+<VarDecl>
+INTTK int
 IDENFR array
 LBRACK [
 INTCON 12
@@ -2982,7 +2996,7 @@ INTCON 10
 <MulExp>
 <AddExp>
 <RelExp>
-<EqExp>
+<EqExp>DENFR dijhw
 <LAndExp>
 <LOrExp>
 <Cond>
